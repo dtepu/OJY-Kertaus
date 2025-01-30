@@ -1,0 +1,53 @@
+# Ignore Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build output and packages
+bin/
+obj/
+out/
+
+# Ignore NuGet dependencies
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# Ignore user secrets (for ASP.NET Core apps)
+secrets.json
+appsettings.Local.json
+
+# Ignore environment-based configurations
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# Ignore JetBrains Rider/Resharper files
+.idea/
+*.sln.iml
+
+# Ignore macOS and Linux system files
+.DS_Store
+*.swp
+
+# Ignore Docker build artifacts
+docker-compose.override.yml
+**/docker-compose.*
+
+# Ignore generated files from Entity Framework Migrations
+Migrations/
+
+# Ignore other unnecessary files
+Thumbs.db
+*.bak
+*.old

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kertaus", "Kertaus\Kertaus.csproj", "{DCDFE517-FFA1-475E-8FBF-B2391A2328EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementTests", "StudentManagementTests\StudentManagementTests.csproj", "{02A89B49-77A0-4FE5-80A4-C0C794ADD3FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCDFE517-FFA1-475E-8FBF-B2391A2328EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDFE517-FFA1-475E-8FBF-B2391A2328EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDFE517-FFA1-475E-8FBF-B2391A2328EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDFE517-FFA1-475E-8FBF-B2391A2328EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A89B49-77A0-4FE5-80A4-C0C794ADD3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A89B49-77A0-4FE5-80A4-C0C794ADD3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A89B49-77A0-4FE5-80A4-C0C794ADD3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A89B49-77A0-4FE5-80A4-C0C794ADD3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
