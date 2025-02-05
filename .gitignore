@@ -4,6 +4,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.csproj.user
 
 # Ignore build output and packages
 bin/
@@ -23,6 +24,10 @@ logs/
 *.cache
 *.pdb
 
+# Ignore Publish Profiles and Service Dependencies (important for CI/CD security)
+Kertaus/Properties/PublishProfiles/
+Kertaus/Properties/ServiceDependencies/
+
 # Ignore user secrets (for ASP.NET Core apps)
 secrets.json
 appsettings.Local.json
@@ -31,6 +36,10 @@ appsettings.Local.json
 appsettings.Development.json
 appsettings.Staging.json
 appsettings.Production.json
+
+# Ignore environment variables
+.env
+.env.*
 
 # Ignore JetBrains Rider/Resharper files
 .idea/
@@ -51,3 +60,9 @@ Migrations/
 Thumbs.db
 *.bak
 *.old
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore frontend dependencies (if applicable)
+node_modules/
