@@ -35,6 +35,13 @@ namespace Kertaus.Controllers
             return student;
         }
 
+        [HttpGet("test")]
+        public ActionResult<string> TestEndpoint()
+        {
+            return "API is working!";
+        }
+
+
         [HttpPost]
         public async Task<ActionResult<Student>> PostStudent(Student student)
         {
